@@ -1,0 +1,59 @@
+/*Contenedor Principal*/
+#contenedor{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Titulo*/
+h1 {
+    color: #333;
+}
+
+/*Campo de Entrada*/
+#nuevaTarea{
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/*Botón*/
+#btnAgregar{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Lista de Tareas*/
+#listaTareas{
+    list-style-type: none;
+    padding: 0;
+}
+
+.tarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    display: flex; /*Flexbox para alinear elementos horizontalmente*/
+    justify-content: space-between; /*Espacio entre texto y botones*/
+    align-items: center;/*Alineamos los elementos al centro*/
+}
+
+/*Botones*/
+button{
+    margin-left: 10px; /*Añade espacio entre botones*/     
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+/*Botón de Eliminar*/
+.eliminarBtn{
+    background-color: #e74c3c;
+    color: white;
+}
+/*Botón de Editar*/
+.mofificarBtn{
+    background-color: #3498db;
+    color: white;
+}
